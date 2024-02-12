@@ -1,4 +1,4 @@
-import TransactionHistoryItem from "../TransactionHistoryItem/TransactionHistoryItem";
+import TransactionHistoryItem from "../TransactionHistoryItem/TransactionHistoryItem.jsx";
 import css from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => 
