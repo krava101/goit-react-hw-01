@@ -1,5 +1,5 @@
 import css from "./Profile.module.css";
-import Stats from '../ProfileStats/Stats.jsx';
+import Stats from '../ProfileStats/Stats';
 
 const Profile = ({ name, tag, location, image, stats }) =>
   (
