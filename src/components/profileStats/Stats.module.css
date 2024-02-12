@@ -1,0 +1,19 @@
+.statsList{
+    display: flex;
+    background-color: lightgray;
+    height: 140px;
+    margin-top: 16px;
+    width: 101%;
+}
+
+.statsList li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+    width: calc(100% / 3);
+    border-right: 0.22rem solid gray;
+    border-top: 0.18rem solid gray;
+    font-size: 32px;
+    line-height: normal;
+}
